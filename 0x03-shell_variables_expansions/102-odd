@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(grep '' | paste -d '\n')
+echo $(grep '' | paste -d '\n' | tr ' ' '\n')
