@@ -1,2 +1,2 @@
 #!/bin/bash
-grep '' | past -d '\n'
+grep -n '' | past -d '\n' - - | cut -d ':' -f 2
